@@ -13,39 +13,40 @@ body {
 a {text-decoration: none;}
 
 /* Container */
-#container {
+#container-index {
     background-color: #f5f5f5;
     width: 75%;
-    margin: 0 auto;
+    margin: 10px auto 0 auto;
     border: 3px solid #fb7d6f;
 }
 
 /* Header */
-header {
+#container-index header {
     background-color: #fb7d6f;
     display: flex;
     justify-content: space-between;
     padding: 15px 20px;
 }
 
-header a {color: #f5f5f5;}
+#container-index header a {color: #f5f5f5;}
 
 /* Logo */
-header a.logo {
+#container-index header a.logo {
     font-size: 40px;
     letter-spacing: 2px;
     font-weight: bold;
 }
 
 /* Menu options */
-header li {
+#container-index header li {
     display: inline-block;
     text-transform: capitalize;
     font-size: 18px;
     margin-top: 2.5%;
 }
 
-header li.ativo, header li.list-item:hover {
+header li.ativo,
+header li.list-item:hover {
     border-bottom: 1px solid #f5f5f5;
     padding-bottom: 2px;
 }
@@ -146,4 +147,30 @@ footer {
     font-size: 20px;
     font-weight: bold;
     padding: 15px 0;
+}
+
+#container-login {
+    width: 60%;
+    background-color: #f5f5f5;
+    margin: 25px auto 0 auto;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+#container-login header {
+    background-color: #fb7d6f;
+    color: #f5f5f5;
+    font-size: 30px;
+    padding: 10px 0;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    text-align: center;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px; 
+}
+
+form {margin-top: 10px;}
+
+input {
+    display: block;
 }

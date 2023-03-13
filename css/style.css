@@ -134,9 +134,7 @@ aside a {
     transition: .4s;
 }
 
-aside a:hover {
-    color: #fc4450;
-}
+aside a:hover {color: #fc4450;}
 
 /* Footer */
 footer {
@@ -149,12 +147,14 @@ footer {
     padding: 15px 0;
 }
 
+/* LOGIN SCREEN */
+
 #container-login {
     width: 60%;
     background-color: #f5f5f5;
+    border: 3px solid #fb7d6f;
     margin: 25px auto 0 auto;
-    border-bottom-left-radius: 10px;
-    border-bottom-right-radius: 10px;
+    border-radius: 14px;
 }
 
 #container-login header {
@@ -169,8 +169,52 @@ footer {
     border-top-right-radius: 10px; 
 }
 
-form {margin-top: 10px;}
+form {margin-top: 20px;}
 
-input {
+.form-data label {
     display: block;
+    margin-bottom: 8px;
+    text-align: center;
+    font-size: 20px;
+}
+
+.form-data input {
+    display: block;
+    width: 60%;
+    margin: 0 auto 40px auto;
+    font-size: 20px;
+    text-align: center;
+    padding: 8px 0;
+    border-radius: 8px;
+    border: 1px solid #a8a8a8;
+}
+
+.form-links {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 30px;
+}
+
+.form-links button {
+    text-transform: capitalize;
+    background-color: #fb7d6f;
+    color: #f5f5f5;
+    border: none;
+    border-radius: 8px;
+    font-size: 18px;
+    padding: 8px 10px;
+    cursor: pointer;
+    transition: .4s;
+}
+
+.form-links button:hover {background-color: #fc4450;}
+
+.form-links p {
+    cursor: pointer;
+    text-transform: capitalize;
+}
+
+.form-links p:hover {
+    color: #fb7d6f;
+    text-decoration: underline;
 }

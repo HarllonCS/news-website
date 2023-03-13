@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Body */
+body {
+    background-color: #F6ECC8;
+    font-family: Arial, sans-serif;
+}
+
+/* All links */
+a {text-decoration: none;}
+
+/* Container */
+#container {
+    background-color: #f5f5f5;
+    width: 75%;
+    margin: 0 auto;
+}
+
+/* Header */
+header {
+    background-color: #fb7d6f;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 20px;
+}
+
+header a {color: #f5f5f5;}
+
+/* Logo */
+header a.logo {
+    font-size: 40px;
+    color: #f5f5f5;
+    letter-spacing: 2px;
+    font-weight: bold;
+}
+
+/* Menu options */
+header li {
+    display: inline-block;
+    text-transform: capitalize;
+    font-size: 18px;
+    margin-top: 2.5%;
+}
+
+header li.ativo, header li.list-item:hover {
+    border-bottom: 1px solid #f5f5f5;
+    padding-bottom: 2px;
+}
+
+header li.list-item {margin-left: 20px;}
+
+/* Login buttom */
+header button {
+    margin-left: 30px;
+    font-size: 18px;
+    padding: 7px 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #fc4450;
+    color: #f5f5f5;
+    transition: background-color .4s;
+}
+
+header button:hover {background-color: #ec3f4b;}
+
+section {
+    border: 1px solid red;
+    width: 65%;
+    float: left;
+}
+
+aside {
+    border: 1px solid blue;
+    width: 30%;
+    float: right;
+}
+
+footer {
+    border: 1px solid green;
+    clear: both;
+}

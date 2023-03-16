@@ -4,6 +4,7 @@ color-palette/
 *.kra
 *.kra~
 *.png
+*.png~
 
 !esboco_landing-page_main-section.png
 !esboco_landing-page_login_btn.png

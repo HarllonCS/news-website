@@ -1,5 +1,7 @@
+// Get the Login screen
 var divLogin = document.querySelector('div.container-login')
 
+// CREATE ELEMENTS FOR THE SIGN UP SCREEN
 var divSignUp = document.createElement('div')
 divSignUp.setAttribute('class', 'container-login')
 
@@ -69,7 +71,6 @@ p.setAttribute('id', 'switch-login')
 p.innerText = 'sign in'
 
 // APPENDING CHILDS
-
 divSignUp.appendChild(header)
 divSignUp.appendChild(form)
 
@@ -111,7 +112,3 @@ login.addEventListener('click', () => {
     bd.removeChild(divSignUp)
     bd.appendChild(divLogin)
 })
-
-
-
-// document.body.appendChild(divSignUp)

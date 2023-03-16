@@ -12,6 +12,16 @@ body {
 /* All links */
 a {text-decoration: none;}
 
+
+/* Set all displays of these elements to flex */
+#container-index header,
+.data-flex,
+.form-links,
+.column {
+    display: flex;
+    justify-content: space-between;
+}
+
 /* Container */
 #container-index {
     background-color: #f5f5f5;
@@ -23,8 +33,6 @@ a {text-decoration: none;}
 /* Header */
 #container-index header {
     background-color: #fb7d6f;
-    display: flex;
-    justify-content: space-between;
     padding: 15px 20px;
 }
 
@@ -75,11 +83,6 @@ section {
     border-right: 1px solid #fc4450;
     width: 65%;
     float: left;
-}
-
-.column {
-    display: flex;
-    justify-content: space-between;
 }
 
 .card {
@@ -192,7 +195,6 @@ form {
 }
 
 .form-links {
-    display: flex;
     justify-content: space-around;
     margin-bottom: 30px;
 }
@@ -222,8 +224,6 @@ form {
 }
 
 .data-flex {
-    display: flex;
-    justify-content: space-between;
     width: 60%;
     margin: 0 auto;
 }

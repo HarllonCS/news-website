@@ -10,8 +10,8 @@
     <link rel="stylesheet" href="./css/login.css">
 </head>
 <body>
-    <div class="container-login"> <!-- Login Container -->
-        <header> <!-- header -->
+    <div id="cont-login" class="container-login">
+        <header>
             <h1>login</h1>
         </header> <!-- /end header -->
 
@@ -24,15 +24,16 @@
             <div class="form-data"> <!-- User Password -->
                 <label for="pass">Password</label>
                 <input type="password" id="passLogin" minlength="8" required autocomplete="off">
-            </div><!-- /end User Password -->
+            </div>
 
             <div class="form-links">
-                <button type="submit">Sign in</button> <!-- Sign in button -->
-                <p id="switch-signup">Sign up</p> <!-- Switch screen -->
+                <button type="submit">Sign in</button>
+                <p id="switch-login">Sign up</p>
             </div>
-        </form> <!-- /end Form -->
-    </div> <!-- /end Login Container -->
-    <!-- <div class="container-login">
+        </form>
+    </div>
+    
+    <div id="cont-signup" class="container-login">
         <header>
             <h1>create account</h1>
         </header>
@@ -51,21 +52,21 @@
             <div class="data-flex">
                 <div class="form-data">
                     <label for="passSignUp1">Password</label>
-                    <input type="password" required placeholder="Min.: 8 characters" id="passSignUp1">
+                    <input type="password" required placeholder="Min.: 8 characters" id="passSignUp1" autocomplete="off">
                 </div>
 
                 <div class="form-data">
                     <label for="passSignUp2">Repeat Password</label>
-                    <input type="password" required id="passSignUp2">
+                    <input type="password" required id="passSignUp2" autocomplete="off">
                 </div>
             </div>
 
             <div class="form-links">
                 <button type="submit">create</button>
-                <p>Sign in</p>
+                <p id="switch-signup">Sign in</p>
             </div>
         </form>
-    </div> -->
+    </div>
 
     <script src="./js/script.js"></script>
 </body>

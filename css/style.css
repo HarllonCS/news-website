@@ -5,29 +5,24 @@
 
 /* Body */
 body {
-    background-color: #F6ECC8;
+    background-color: #f6ecc8;
     font-family: Arial, sans-serif;
 }
 
 /* All links */
 a {text-decoration: none;}
 
-
-/* Set all displays of these elements to flex */
-#container-index header,
-.data-flex,
-.form-links,
-.column {
-    display: flex;
-    justify-content: space-between;
-}
-
+/* Set the color of the background and font */
 header,
-footer,
-.form-links button {
+header button,
+footer {
     background-color: #fb7d6f;
     color: #f5f5f5;
 }
+
+/* Set display to "block" */
+.card img,
+aside a {display: block;}
 
 /* Container */
 #container-index {
@@ -38,7 +33,11 @@ footer,
 }
 
 /* Header */
-#container-index header {padding: 15px 20px;}
+#container-index header {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 20px;
+}
 
 #container-index header a {color: #f5f5f5;}
 
@@ -50,7 +49,7 @@ footer,
 }
 
 /* Menu options */
-#container-index header li {
+header li {
     display: inline-block;
     text-transform: capitalize;
     font-size: 18px;
@@ -65,16 +64,15 @@ header li.list-item:hover {
 
 header li.list-item {margin-left: 20px;}
 
-/* Login buttom */
+/* Login button */
 header button {
     margin-left: 30px;
     font-size: 18px;
     padding: 7px 10px;
     border: none;
-    border-radius: 5px;
     cursor: pointer;
+    border-radius: 5px;
     background-color: #fc4450;
-    color: #f5f5f5;
     transition: background-color .4s;
 }
 
@@ -90,6 +88,11 @@ section {
     float: left;
 }
 
+.column {
+    display: flex;
+    justify-content: space-between;
+}
+
 /* Cards */
 .card {
     width: 48%;
@@ -97,7 +100,6 @@ section {
 }
 
 .card img {
-    display: block;
     margin: 0 auto;
     border: 1px solid #c4c4c4;
     padding: 6px;
@@ -134,7 +136,6 @@ aside {
 }
 
 aside a {
-    display: block;
     color: black;
     font-size: 14px;
     white-space: nowrap;
@@ -153,79 +154,4 @@ footer {
     font-size: 20px;
     font-weight: bold;
     padding: 15px 0;
-}
-
-/* LOGIN SCREEN */
-.container-login {
-    width: 60%;
-    background-color: #f5f5f5;
-    border: 3px solid #fb7d6f;
-    margin: 25px auto 0 auto;
-    border-radius: 14px;
-}
-
-/* Login header */
-.container-login header {
-    font-size: 30px;
-    padding: 10px 0;
-    text-transform: uppercase;
-    letter-spacing: 3px;
-    text-align: center;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
-}
-
-/* Login form */
-form {margin-top: 20px;}
-
-.form-data label {
-    display: block;
-    margin-bottom: 8px;
-    text-align: center;
-    font-size: 20px;
-}
-
-.form-data input {
-    display: block;
-    width: 60%;
-    margin: 0 auto 40px auto;
-    font-size: 20px;
-    text-align: center;
-    padding: 8px 0;
-    border-radius: 8px;
-    border: 1px solid #a8a8a8;
-}
-
-.data-flex {
-    width: 60%;
-    margin: 0 auto;
-}
-
-.data-flex input {width: 200px;}
-
-.form-links {
-    justify-content: space-around;
-    margin-bottom: 30px;
-}
-
-.form-links button {
-    text-transform: capitalize;
-    border: none;
-    border-radius: 8px;
-    font-size: 18px;
-    padding: 8px 10px;
-    cursor: pointer;
-    transition: .4s;
-}
-
-.form-links button:hover {background-color: #fc4450;}
-
-.form-links p {
-    cursor: pointer;
-    text-transform: capitalize;
-}
-
-.form-links p:hover {
-    color: #fb7d6f;
-    text-decoration: underline;
 }

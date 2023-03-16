@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="./css/login.css">
 </head>
 <body>
-    <div id="cont-login" class="container-login">
+    <div class="container-login">
         <header>
             <h1>login</h1>
         </header> <!-- /end header -->
@@ -28,46 +28,9 @@
 
             <div class="form-links">
                 <button type="submit">Sign in</button>
-                <p id="switch-login">Sign up</p>
+                <a href="./signup.html">Sign up</a>
             </div>
         </form>
     </div>
-
-    <div id="cont-signup" class="container-login">
-        <header>
-            <h1>create account</h1>
-        </header>
-
-        <form>
-            <div class="form-data">
-                <label for="nameSignUp">Username</label>
-                <input type="text" id="nameSignUp" required autofocus placeholder="It doesn't have to be your real name.">
-            </div>
-            
-            <div class="form-data">
-                <label for="emailSignUp">E-mail</label>
-                <input type="email" required placeholder="example@email.com" id="emailSignUp">
-            </div>
-
-            <div class="data-flex">
-                <div class="form-data">
-                    <label for="passSignUp1">Password</label>
-                    <input type="password" required placeholder="Min.: 8 characters" id="passSignUp1" autocomplete="off">
-                </div>
-
-                <div class="form-data">
-                    <label for="passSignUp2">Repeat Password</label>
-                    <input type="password" required id="passSignUp2" autocomplete="off">
-                </div>
-            </div>
-
-            <div class="form-links">
-                <button type="submit">create</button>
-                <p id="switch-signup">Sign in</p>
-            </div>
-        </form>
-    </div>
-
-    <script src="./js/script.js"></script>
 </body>
 </html>

@@ -11,7 +11,7 @@
 
 /* Set cursor to "pointer" */
 .form-links button,
-.form-links p {
+.form-links a {
     text-transform: capitalize;
     cursor: pointer;
 }
@@ -81,7 +81,9 @@ form {margin-top: 20px;}
 
 .form-links button:hover {background-color: #fc4450;}
 
-.form-links p:hover {
+.form-links a {color: black;}
+
+.form-links a:hover {
     color: #fb7d6f;
     text-decoration: underline;
 }

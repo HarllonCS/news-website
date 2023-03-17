@@ -31,6 +31,7 @@ The website login can be done if the user wants to participate in the **Comments
 Then he/she will be redirected to the Login Page.
 
 ![Image Sketch: Login Screen](./sketches/esboco_login.png)
+
 By clicking on the *Sign Up* button, instead of loading an HTML file, the screen will be switched to the **Sign Up screen**.
 
 ![Image Sketch: Sign Up Screen](./sketches/esboco_cadastro.png)

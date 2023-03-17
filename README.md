@@ -13,7 +13,7 @@ The idea of this website is to report on some things that are happening or happe
 ## Page outline images.
 
 ### Main Section
-The hottest news will be displayed in the **Main Section**. With this, the user will not waste a lot of time looking for that information that is leaving the whole world awestruck.
+The main news will be displayed in the **Main Section**. With this, the user will not waste a lot of time looking for that information that is leaving the whole world awestruck.
 
 ![Image Sketch: Main Section](./sketches/esboco_landing-page_main-section.png)
 

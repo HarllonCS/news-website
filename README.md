@@ -4,13 +4,14 @@ I've been doing some projects for studies and practice my Web Development skills
 Here's a link list of some of them:
 
 - [Web Project 1: News website](https://github.com/HarllonCS/news-website)
+- [Web Project 2: Math Solver](https://github.com/HarllonCS/math-solver)
 
 OBS.: As I save projects on GitHub, I also update the list.
 
-# Web Project 1: News Website
+# Web Project: News Website
 The idea of this website is to report on some things that are happening or happened around the world. Highlighting the most urgent and interesting ones, leaving the user increasingly updated and attentive to the news.
 
-## Page outline images.
+## Page outline images
 
 ### Main Section
 The main news will be displayed in the **Main Section**. With this, the user will not waste a lot of time looking for that information that is leaving the whole world awestruck.
